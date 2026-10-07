@@ -10,8 +10,8 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      {/* <Hero />
-      <SelectedWork />
+      <Hero />
+      {/* <SelectedWork />
       <AboutExperience />
       <SkillsAndCapabilities />
       <ProcessSection /> */}
