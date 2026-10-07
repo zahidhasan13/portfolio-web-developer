@@ -325,7 +325,7 @@ export const SelectedWork = () => {
 
           {/* GitHub Button */}
           <a
-            href="https://github.com/zahidhasandev"
+            href="https://github.com/zahidhasan13"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="View all projects on GitHub"
