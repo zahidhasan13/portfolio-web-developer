@@ -1,4 +1,5 @@
 import AboutExperience from "@/components/AboutExperience";
+import ContactSection from "@/components/ContactSection";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import ProcessSection from "@/components/ProcessSection";
@@ -15,6 +16,7 @@ export default function Home() {
       <AboutExperience />
       <SkillsAndCapabilities />
       <ProcessSection />
+      <ContactSection />
     </>
   );
 }
