@@ -14,7 +14,7 @@ export default function Home() {
       <SelectedWork />
       <AboutExperience />
       <SkillsAndCapabilities />
-      {/* <ProcessSection /> */}
+      <ProcessSection />
     </>
   );
 }
