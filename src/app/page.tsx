@@ -12,8 +12,8 @@ export default function Home() {
       <Navbar />
       <Hero />
       <SelectedWork />
-      {/* <AboutExperience />
-      <SkillsAndCapabilities />
+      <AboutExperience />
+      {/* <SkillsAndCapabilities />
       <ProcessSection /> */}
     </>
   );
