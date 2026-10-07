@@ -58,7 +58,7 @@ export const Navbar = () => {
       <div className="max-w-7xl mx-auto px-6 md:px-12 flex items-center justify-between">
         {/* Brand / Logo */}
         <Link
-          href="#home"
+          href="/"
           className="text-xl font-bold tracking-wider text-white hover:opacity-80 transition-opacity"
           aria-label="Zahid Hasan Portfolio Home"
         >
