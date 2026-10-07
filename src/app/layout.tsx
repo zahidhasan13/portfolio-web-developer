@@ -43,7 +43,7 @@ export const metadata: Metadata = {
   creator: "Zahid Hasan",
   publisher: "Zahid Hasan",
 
-  metadataBase: new URL("https://your-domain.com"),
+  metadataBase: new URL("https://portfolio-web-developer-omega.vercel.app/"),
 
   alternates: {
     canonical: "/",

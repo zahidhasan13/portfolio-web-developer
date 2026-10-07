@@ -11,7 +11,7 @@ import { FaLinkedin } from "react-icons/fa";
 // CONFIG & DATA STRUCTURES
 // ==========================================
 
-const CONTACT_EMAIL = "zahidhasan.dev@gmail.com";
+const CONTACT_EMAIL = "zahidhasanofficial13@gmail.com";
 
 interface NavLinkData {
   label: string;
@@ -40,7 +40,7 @@ const SOCIAL_LINKS: SocialLinkData[] = [
   },
   {
     label: "GitHub",
-    href: "https://github.com/zahidhasandev", // Replace with your actual GitHub username
+    href: "https://github.com/zahidhasan13", // Replace with your actual GitHub username
     icon: SiGithub,
   },
   {
