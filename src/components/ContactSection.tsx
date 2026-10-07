@@ -162,7 +162,10 @@ export default function ContactSection() {
   const shouldReduceMotion = useReducedMotion();
 
   return (
-    <section className="relative min-h-screen bg-[#0A0A0A] text-[#F5F5F5] py-24 px-6 sm:px-12 lg:px-20 font-sans antialiased selection:bg-neutral-800 selection:text-neutral-100 flex flex-col justify-between overflow-hidden">
+    <section
+      id="contact"
+      className="relative min-h-screen bg-[#0A0A0A] text-[#F5F5F5] py-24 px-6 sm:px-12 lg:px-20 font-sans antialiased selection:bg-neutral-800 selection:text-neutral-100 flex flex-col justify-between overflow-hidden"
+    >
       <SubtleBackground />
 
       <div className="relative z-10 max-w-5xl mx-auto w-full my-auto">
@@ -265,12 +268,6 @@ export default function ContactSection() {
           </motion.div>
         </motion.div>
       </div>
-
-      {/* Portfolio Bottom Copyright Footer */}
-      <footer className="relative z-10 max-w-5xl mx-auto w-full pt-12 text-center sm:text-left flex flex-col sm:flex-row items-center justify-between text-xs font-mono text-neutral-500 gap-4">
-        <p>© {new Date().getFullYear()} Zahid Hasan. All rights reserved.</p>
-        <p>Designed & Built with Next.js, Tailwind CSS & Framer Motion.</p>
-      </footer>
     </section>
   );
 }

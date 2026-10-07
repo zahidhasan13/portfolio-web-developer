@@ -7,7 +7,7 @@ import { Menu, X, ArrowUpRight } from "lucide-react";
 
 // Navigation items config
 const NAV_LINKS = [
-  { name: "Home", href: "#home" },
+  { name: "Home", href: "/" },
   { name: "Work", href: "#work" },
   { name: "About", href: "#about" },
   { name: "Skills", href: "#skills" },

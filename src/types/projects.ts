@@ -35,35 +35,8 @@ export const PROJECTS_DATA: Project[] = [
       "Responsive UI",
     ],
     liveUrl: "https://cinemate-tawny.vercel.app/",
-    image: "/projects/cinemate.jpg", // Replace with your public image path or external URL
+    image: "/assets/images/cinemate.png",
     isFeaturedLarge: true,
-  },
-  {
-    id: "finora",
-    number: "02",
-    title: "Finora",
-    category: "Personal Finance Dashboard",
-    description:
-      "A modern fintech dashboard for managing accounts, transactions and personal finances with a clean and intuitive interface.",
-    tech: [
-      "Next.js",
-      "TypeScript",
-      "Tailwind CSS",
-      "Node.js",
-      "Express.js",
-      "MongoDB",
-      "JWT",
-      "Zod",
-    ],
-    features: [
-      "Authentication",
-      "Account management",
-      "Transactions",
-      "Financial summary",
-      "Dashboard",
-      "REST API",
-    ],
-    image: "/projects/finora.jpg", // Replace with your public image path
   },
   {
     id: "cravora",
@@ -90,6 +63,35 @@ export const PROJECTS_DATA: Project[] = [
       "Responsive design",
     ],
     liveUrl: "https://cravora-food.vercel.app/",
-    image: "/projects/cravora.jpg", // Replace with your public image path
+    image: "/assets/images/cravora.png",
+  },
+  {
+    id: "store-commerce",
+    number: "04",
+    title: "Store Commerce",
+    category: "E-commerce Platform",
+    description:
+      "A modern e-commerce application built with Next.js and Redux Toolkit, featuring product discovery, search, cart management, wishlist and a smooth checkout experience.",
+    tech: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Redux Toolkit",
+      "REST API",
+      "Local Storage",
+    ],
+    features: [
+      "Product discovery",
+      "Categories",
+      "Search",
+      "Shopping cart",
+      "Wishlist",
+      "Authentication",
+      "Checkout",
+      "Order summary",
+      "Responsive design",
+    ],
+    liveUrl: "https://store-commerce-sage.vercel.app/",
+    image: "/assets/images/store.png",
   },
 ];

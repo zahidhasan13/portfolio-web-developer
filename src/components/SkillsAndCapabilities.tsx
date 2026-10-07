@@ -253,7 +253,7 @@ const CapabilityCard: React.FC<{ item: CapabilityData }> = ({ item }) => {
 
 export const SkillsSection: React.FC = () => {
   return (
-    <section className="mb-24 lg:mb-32">
+    <section id="skills" className="mb-24 lg:mb-32">
       {/* Section Header */}
       <motion.div variants={itemVariants} className="max-w-2xl mb-12 sm:mb-16">
         <span className="inline-block font-mono text-xs font-semibold tracking-widest text-neutral-400 uppercase mb-4">
